@@ -17,6 +17,7 @@ after_success:
 
 # aws 추가
 deploy : 
+  edge : true 
   provider : elasticbeanstalk
   region : "us-east-1"
   app : "docker-react-app"
